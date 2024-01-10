@@ -182,7 +182,7 @@ void * output(void *args)
   while(1)
   {
     char c = get_buff3();
-    if (c== -1) 
+    if (c == -1) 
       break;
     output[output_idx] = c ;
     output_idx += 1 ;
